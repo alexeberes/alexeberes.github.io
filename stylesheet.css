@@ -44,7 +44,7 @@ ul.topnav li a:hover {
 }
 
 .content {
-    font-size: 24px;
+    font-size: 18px;
     scroll-behavior: smooth;
 }
 
@@ -58,6 +58,10 @@ ul.topnav li a:hover {
     align-items: center;
     padding-left: 24px;
     padding-right: 24px;
+}
+
+.name {
+    font-size: 24px;
 }
 
 .fa {
@@ -89,6 +93,15 @@ ul.topnav li a:hover {
     align-items: center;
     padding-left: 24px;
     padding-right: 24px;
+}
+
+.aboutimg img{
+    height: 40vh;
+    padding-right: 28px;
+}
+
+.aboutinfo {
+    max-width: 820px;
 }
 
 .Research {
