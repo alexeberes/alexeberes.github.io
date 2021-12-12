@@ -83,6 +83,13 @@ ul.topnav li a:hover {
     padding-left: 28px;
 }
 
+@media only screen and (max-device-width: 800px) {
+    .profileimg img { 
+      width: 20vw;
+      height: auto; 
+    }
+  }
+
 .About {
     height: 100vh; 
     background: rgb(078, 042, 132);
@@ -99,6 +106,13 @@ ul.topnav li a:hover {
     height: 40vh;
     padding-right: 28px;
 }
+
+@media only screen and (max-device-width: 800px) {
+    .aboutimg img { 
+      width: 20vw;
+      height: auto; 
+    }
+  }
 
 .aboutinfo {
     max-width: 820px;
