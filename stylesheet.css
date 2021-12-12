@@ -83,7 +83,7 @@ ul.topnav li a:hover {
     padding-left: 28px;
 }
 
-@media screen and (max-device-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .profileimg img { 
       width: 20vw;
       height: auto; 
@@ -107,7 +107,7 @@ ul.topnav li a:hover {
     padding-right: 28px;
 }
 
-@media screen and (max-device-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .aboutimg img { 
       width: 20vw;
       height: auto; 
