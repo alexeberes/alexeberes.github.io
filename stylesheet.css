@@ -43,31 +43,76 @@ ul.topnav li a:hover {
     color: mediumaquamarine;
 }
 
+.content {
+    font-size: 48px;
+    scroll-behavior: smooth;
+}
 
-.content1 {
+.Welcome {
     height: 100vh; 
     background: rgb(072, 036, 118);
     color: #D8D6D6;
     background-size: cover;
-}
-
-.profileimg {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-.content2 {
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #D8D6D6;;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.profileimg img{
+    height: 40vh;
+    padding-left: 28px;
+}
+
+.About {
     height: 100vh; 
     background: rgb(118, 36, 87);
     color: #D8D6D6;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.content3 {
+.Research {
     height: 100vh; 
     background: rgb(36, 102, 118);
     color: #D8D6D6;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Publications {
+    height: 100vh; 
+    background: rgb(118, 36, 54);
+    color: #D8D6D6;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact {
+    height: 100vh; 
+    background: rgb(36, 118, 50);
+    color: #D8D6D6;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
