@@ -81,7 +81,7 @@ ul.topnav li a:hover {
 
 .About {
     height: 100vh; 
-    background: rgb(118, 36, 87);
+    background: rgb(078, 042, 132);
     color: #D8D6D6;
     background-size: cover;
     display: flex;
@@ -93,7 +93,7 @@ ul.topnav li a:hover {
 
 .Research {
     height: 100vh; 
-    background: rgb(36, 102, 118);
+    background: rgb(91, 59, 140);
     color: #D8D6D6;
     background-size: cover;
     display: flex;
@@ -105,7 +105,7 @@ ul.topnav li a:hover {
 
 .Publications {
     height: 100vh; 
-    background: rgb(118, 36, 54);
+    background: rgb(104, 076, 150);
     color: #D8D6D6;
     background-size: cover;
     display: flex;
@@ -117,7 +117,7 @@ ul.topnav li a:hover {
 
 .Contact {
     height: 100vh; 
-    background: rgb(36, 118, 50);
+    background: rgb(118, 093, 160);
     color: #D8D6D6;
     background-size: cover;
     display: flex;
