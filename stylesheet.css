@@ -48,6 +48,12 @@ ul.topnav li a:hover {
     scroll-behavior: smooth;
 }
 
+@media only screen and (max-width: 1200px) {
+    .content {
+        font-size: 24px;
+    }
+  }
+
 .Welcome {
     height: 100vh; 
     background: rgb(072, 036, 118);
@@ -84,8 +90,12 @@ ul.topnav li a:hover {
 }
 
 @media only screen and (max-width: 1200px) {
+    .name {
+        font-size: 28px;
+    }
+    
     .profileimg img { 
-      width: 20vw;
+      width: 30vw;
       height: auto; 
     }
   }
@@ -109,7 +119,7 @@ ul.topnav li a:hover {
 
 @media only screen and (max-width: 1200px) {
     .aboutimg img { 
-      width: 20vw;
+      width: 30vw;
       height: auto; 
     }
   }
