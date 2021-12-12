@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+ul.topnav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-top: 24px;
+    padding-left:  16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+ul.topnav li .logo img {
+    padding-top: -10px;
+    height: 32px;
+} 
+
+ul.topnav li a:hover {
+    color: mediumaquamarine;
+}
+
+
+.content1 {
+    height: 100vh; 
+    background: green;
+    background-size: cover;
+}
+
+.profileimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content2 {
+    height: 100vh; 
+    background: aqua;
+    background-size: cover;
+}
+
+.content3 {
+    height: 100vh; 
+    background: violet;
+    background-size: cover;
+}
